@@ -23,6 +23,7 @@
 
 .about__title {
   max-width: 251px;
+  margin: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -48,6 +49,10 @@
   margin: 0 0 20px;
 }
 
+.about__paragrap:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   position: absolute;
   background-color: #2f80ed;
@@ -59,12 +64,5 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  width: 426px;
-  height: 426px;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out infinite;
 }
